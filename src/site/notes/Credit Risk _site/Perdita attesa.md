@@ -3,7 +3,7 @@
 ---
 
 Quando abbiamo a che fare con una variabile casuale cerchiamo sempre le sue caratteristiche come il valore atteso e la varianza.
-Anche nel caso della vc Perdita è così, vediamo quindi la **perdita attesa (Expected Loss**.
+Anche nel caso della vc Perdita è così, vediamo quindi la **perdita attesa (Expected Loss)**.
 Essa non è altro che il *valore atteso della perdita*
 ![Pasted image 20250126203931.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126203931.png)
 

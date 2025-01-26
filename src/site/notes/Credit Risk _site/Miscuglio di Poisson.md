@@ -1,6 +1,8 @@
 ---
-{"dg-publish": true, "permalink": "/credit-risk-site/Miscuglio%20di%20Poisson/"}
+{"dg-publish": true, "permalink": "/credit-risk-site/Miscuglio-di-Poisson/"}
 ---
+
+
 
 
 

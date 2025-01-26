@@ -12,13 +12,14 @@ Per verificare che due variabili siano indipendenti basta controllare le **frequ
 ![Pasted image 20230312185329.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312185329.png)
 - Possiamo ottenere le probabilità congiunte moltiplicando quelle condizionali corrispondente
 ![Pasted image 20230312185424.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312185424.png)
-![Pasted image 20250126194916.png](/img/user/Pasted%20image%2020250126194916.png)
+![Pasted image 20250126194916.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126194916.png)
 
 > [!info]- ESERCIZIO
 > Date queste frequenze marginali calcola l'unica tabella composta dalle frequenze congiunte che rende $X$ e $Y$ indipendenti.
 > ![Pasted image 20230319135350.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230319135350.png)
-> FILE EXCEL: ![[Combinazione lineare poisson+Strutture di dipendenza.xlsx]]
+> [File Excel](https://github.com/marcolldotcoin/credit_risk/raw/7ce104d39c5d7b3c11e68f6a4e9af3658233cf95/src/site/uploads/Combinazione%20lineare%20poisson%2BStrutture%20di%20dipendenza.xlsx)
+> 
 > <video width="640" height="360" controls>
->   <source src="https://github.com/marcolldotcoin/credit_risk/raw/5adc56253006b7683e4abe0887dcdfce1faa1ac1/src/site/uploads/video/Esercizio%20cograduazione.mp4" type="video/mp4">
+>   <source src="https://github.com/marcolldotcoin/credit_risk/raw/7ce104d39c5d7b3c11e68f6a4e9af3658233cf95/src/site/uploads/video/Esercizio%20variabili%20indipendenti.mp4" type="video/mp4">
 >   Your browser does not support the video tag.
 > </video>

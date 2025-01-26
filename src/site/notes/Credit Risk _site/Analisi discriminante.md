@@ -2,11 +2,6 @@
 {"dg-publish":true,"permalink":"/credit-risk-site/analisi-discriminante/"}
 ---
 
-
-
-
-
-
 L'**analisi discriminante** parte dall'analisi dei *dati di bilancio* dell'azienda.
 Tramite una certa analisi li trasforma in un punteggio che rispecchia il merito del creditore.
 Punteggio alto corrisponde ad alta affidabilità.
@@ -27,7 +22,7 @@ Il vettore $a$ si determina in modo da che tra il gruppo di aziende insolventi e
 Il problema di ottimo vincolato porta alla seguente soluzione.
 
 > Il vettore dei coefficienti $a$ si calcola con questa formula
-![Pasted image 20250126142536.png](/img/user/Pasted%20image%2020250126142536.png)
+![Pasted image 20250126142536.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126142536.png)
 
 Determiniamo lo **score** usando il vettore $a$ e la matrice $X$.
  >![Pasted image 20230529113702.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230529113702.png)
@@ -49,8 +44,9 @@ Ci saranno alcune aziende risultate solventi con uno score superiore al cut off,
 Ci saranno altre aziende risultate solventi ma con uno score inferiore al cut off, quindi teoricamente non gli si sarebbe dovuto concedere il prestito secondo il modello, ma alla fine era bene concederlo perché risultate solventi.
 Lo stesso discorso può essere fatto per i default.
 Si vede quindi quante volte in percentuale il modello ci ha visto giusto, più è alto il TCR più il modello è affidabile
-![Pasted image 20250126142803.png](/img/user/Pasted%20image%2020250126142803.png)
+![Pasted image 20250126142803.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126142803.png)
 
+[File excel](https://github.com/marcolldotcoin/credit_risk/raw/18ccd8b32406d818154aab16b7f5824c4dad2bf0/src/site/uploads/Analisi%20discriminante.xlsx)
 
 Di solito si considera un modello  *affidabile se supera l'80%* come TCR.
 ![[Esercizio score e TCR.mp4]]
@@ -60,13 +56,13 @@ Esistono alcune tecniche per trasformare il punteggio di score nella probabilit�
 1. **Trasformazione rozza**
 Metodo usato in passato che dava risultati inverosimili. ==Sconsigliato==.
 Si utilizza quella che viene chiamata funzione di sopravvivenza logistica, ovvero una funzione che ci dice qual'è la probabilità che accada qualcosa all'aumentare del valore di $x$.
-![Pasted image 20250126143045.png](/img/user/Pasted%20image%2020250126143045.png)
+![Pasted image 20250126143045.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126143045.png)
 
 2. **Interpolazione basata su informazione ausiliaria**
 Conoscendo la probabilità d'insolvenza di alcuni soggetti si parte da ciò, ad esempio alcuni debitori hanno obbligazioni quotate a mercato.
 Si sfrutta quindi lo score e la probabilità di default per fare una regressione e fare emergere il legame tra di essi.
 Invece di usare una retta, che poco si adatta perché fornirebbe informazioni errate per certi valori di score estremi, utilizziamo come funzione interpolante la funzione di sopravvivenza logistica con parametri $a$ e $b$.
-![Pasted image 20250126143111.png](/img/user/Pasted%20image%2020250126143111.png)
+![Pasted image 20250126143111.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126143111.png)
 ![Pasted image 20230601132825.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230601132825.png)
 La funzione di sopravvivenza scelta ha la caratteristica di essere linearizzabile, quindi perfetta per un'interpolazione lineare.
 ![Pasted image 20230601132250.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230601132250.png)

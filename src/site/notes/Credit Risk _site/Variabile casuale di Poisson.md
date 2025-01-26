@@ -1,7 +1,9 @@
 ---
-dg-publish: true
-dg-home: false
+{"dg-publish": true, "permalink": "/credit-risk-site/Variabile%20casuale%20di%20Poisson/"}
 ---
+
+
+
 Una variabile casuale si definisce **Poisson** ($puassòn$) se ha la seguente funzione di probabilità:
 ![Pasted image 20230302115546.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230302115546.png)
 

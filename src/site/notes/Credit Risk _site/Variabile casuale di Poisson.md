@@ -1,6 +1,8 @@
 ---
-{"dg-publish": true, "permalink": "/credit-risk-site/Variabile%20casuale%20di%20Poisson/"}
+{"dg-publish": true, "permalink": "/credit-risk-site/Variabile-casuale-di-Poisson/"}
 ---
+
+
 
 
 

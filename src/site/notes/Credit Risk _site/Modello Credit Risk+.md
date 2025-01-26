@@ -72,7 +72,7 @@ Questo miscuglio ci consente di togliere il condizionamento e rappresenterà la 
 Una ==seconda tecnica== per introdurre dipendenza è quella di ==separare il problema==, introducendo dipendenza tra le Poisson all'interno di ogni singola fascia e poi introducendo la dipendenza tra le fasce.
 All'interno della fascia la dipendenza si incorpora usando una differente variabile casuale, ovvero il [[Credit Risk _site/Miscuglio Gamma-Poisson\|Miscuglio Gamma-Poisson]], in questo modo la distribuzione delle $N_j$ avrà una sovradispersione che ci permette di cogliere l'elemento di dipendenza tra le esposizioni in ogni fascia.
 Come secondo passo si prova a rappresentare la dipendenza tra le fasce.
-La tecnica che meglio si adatta a questo problema è l'utilizzo delle copule, ovvero una funzione che prende dele distribuzioni marginali producendo un modello di distribuzione congiunto multivariato caratterizzato da una particolare struttura di dipendenza. Sulla base dei dati osservati la struttura di dipendenza può essere stimata producendo la distribuzione congiunta delle $N_j$.
+La tecnica che meglio si adatta a questo problema è l'utilizzo delle copule, ovvero una funzione che prende delle distribuzioni marginali producendo un modello di distribuzione congiunto multivariato caratterizzato da una particolare struttura di dipendenza. Sulla base dei dati osservati la struttura di dipendenza può essere stimata producendo la distribuzione congiunta delle $N_j$.
 Questa tecnica però non la vedremo nel corso.
 
-![[Esercizio CR+ dipendenza.mp4]]
+<iframe src="https://drive.google.com/file/d/1WxUVbSfUzDcvsUJDMuMho6EzaF6AdbIW/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>

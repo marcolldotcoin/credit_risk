@@ -15,6 +15,8 @@ Ed anche un esercizio su un portafoglio di 100 esposizioni, in questo caso gener
 Per generare la variabile indicatore usiamo la funzione $se(casuale()<=p;1;0)$
 Per calcolare il VaR usiamo la funzione $esc.percentile(matrice;confidenza)$.
 Per calcolare la TCE usiamo la funzione $somma.se(matrice;">="&VaR)$ / $conta.se(matrice;">="&VaR)$
-![[Simulazione montecarlo con formula inv.mp4]]
+
+<iframe src="https://drive.google.com/file/d/10evM4HFS2lDBgDTdqjalMxKOiAbmSD1y/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
 

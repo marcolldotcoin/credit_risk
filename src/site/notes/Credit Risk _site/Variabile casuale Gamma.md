@@ -1,6 +1,5 @@
 ---
-dg-publish: true
-dg-home: false
+{"dg-publish":true,"permalink":"/credit-risk-site/variabile-casuale-gamma/"}
 ---
 Una variabile casuale si definisce **gamma** se ha la seguente funzione di probabilità:
 

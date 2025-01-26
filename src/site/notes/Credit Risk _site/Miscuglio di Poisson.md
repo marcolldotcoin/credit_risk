@@ -13,7 +13,7 @@ Questa proprietà è interessante perché le singole Poisson hanno media e varia
 Quando faccio un Miscuglio di Poisson ottengo una vc che rispetto alle singole componenti presenta una *sovra-dispersione*, proprio perché la media è più piccola della varianza.
 
 **DIMOSTRAZIONE**
-![Pasted image 20250126195907.png](/img/user/Pasted%20image%2020250126195907.png)
+![Pasted image 20250126195907.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126195907.png)
 
 Come notiamo il valore atteso di una generica componente del miscuglio $X_j$ condizionata la fatto che il parametro sia $\theta$ è uguale al parametro stesso $\theta$.
 Questo è logico perché $X_j$ è una Poisson, il suo valore atteso è quindi pari al suo parametro $\lambda$ che in questo caso abbiamo semplicemente chiamato $\theta$. 

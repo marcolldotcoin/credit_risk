@@ -70,7 +70,11 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 ---
 
 - **Esercizi in autonomia**
-	- Perdita di portafoglio: ![[Esercizi in autonomia perdita.xlsx]]
+	- [Perdita di portafoglio](https://github.com/marcolldotcoin/credit_risk/blob/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
+
+	- 
+	- 
+	- Alala ![[Esercizi in autonomia perdita.xlsx]]
 	- Analisi discriminante: ![[Esercizi in autonomia analisi discriminante.xlsx]]
 	- Credit Risk+: ![[esercizi in autonomia cr+.xlsx]]
 	- Credit Metrics: ![[Esercizi in autonomia CreditMetrics.xlsx]]

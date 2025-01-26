@@ -1,15 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/credit-risk-site/Miscuglio di Poisson/"}
+{"dg-publish": true, "permalink": "/credit-risk-site/Miscuglio%20di%20Poisson/"}
 ---
 
----
-permalink: /credit-risk-site/Miscuglio di Poisson.md
----
 
----
-dg-publish: true
-dg-home: false
----
+
 I **Miscugli di Poisson** sono Miscugli dove *tutte le componenti sono Poisson*.
 Questo tipo di Miscuglio ha delle particolari proprietà.
 

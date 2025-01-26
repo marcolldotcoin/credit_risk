@@ -1,6 +1,7 @@
 ---
-{"dg-publish": true, "permalink": "/credit-risk-site/Variabile-casuale-di-Poisson/"}
+{"dg-publish":true,"permalink":"/credit-risk-site/variabile-casuale-di-poisson/"}
 ---
+
 
 
 
@@ -27,8 +28,7 @@ Una variabile casuale si definisce **Poisson** ($puassòn$) se ha la seguente fu
 > 
 > Funzione generatrice dei momenti: ![Pasted image 20230302120112.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230302120112.png)
 
-La variabile casuale di Poisson è solitamente **utilizzata** al fine di contare il ==numero di 
-“accadimenti” di un determinato fenomeno in un certo lasso di tempo==. 
+La variabile casuale di Poisson è solitamente **utilizzata** al fine di contare il ==numero di “accadimenti” di un determinato fenomeno in un certo lasso di tempo==. 
 Se il parametro λ è molto piccolo, il fenomeno del quale si vogliono contare gli accadimenti può considerarsi un *fenomeno raro*.
 
 > **TEOREMA**

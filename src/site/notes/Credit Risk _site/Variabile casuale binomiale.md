@@ -1,6 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/credit-risk-site/variabile-casuale-binomiale/"}
+{"dg-publish": true, "permalink": "/credit-risk-site/Variabile-casuale-binomiale/"}
 ---
+
+
+
+
 
 ---
 Una variabile casuale si definisce **binomiale** se ha la seguente funzione di probabilità:
@@ -33,8 +37,8 @@ Useremo questa variabile per capire quanti tra $N$ debitori con la stessa probab
 > **TEOREMA**
 > Se abbiamo una serie [[Credit Risk _site/Variabili casuali indipendenti identiamente distribuite (i.i.d.)\|i.i.d.]] la loro somma si distribuisce come una binomiale
 > ![Pasted image 20230302114754.png|300](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020230302114754.png)
-{ #d63a27}
 
+^d63a27
 
 Questo teorema può tornare utile se pensiamo di avere a che fare con $n$ debitori ognuno con la sua probabilità $p$ di insolvenza.
 Purtroppo però abbiamo dei *limiti applicativi nella realtà*, infatti l'ipotesi è che gli Indicatori siano i.i.d.

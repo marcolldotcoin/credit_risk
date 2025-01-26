@@ -1,6 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/credit-risk-site/variabile-casuale-indicatore-di-bernoulli/"}
+{"dg-publish": true, "permalink": "/credit-risk-site/Variabile-casuale-indicatore-(di-Bernoulli)/"}
 ---
+
+
+
+
+
 Una variabile casuale si definisce **indicatore** se ha la seguente funzione di probabilità
 ![Pasted image 20230302112443.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020230302112443.png)
 

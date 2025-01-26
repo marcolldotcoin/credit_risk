@@ -9,14 +9,14 @@ Quando calcoliamo questi valori in un portafolgio di crediti abbiamo la seguente
 
 Vediamo un esercizio per calcolare questi valori su un portafoglio di 6 esposizioni
 
-<iframe src="https://drive.google.com/file/d/1q1q9OwkxSkujashKLA54ou1Zlexs58Qx/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1q1q9OwkxSkujashKLA54ou1Zlexs58Qx/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 
 Ed anche un esercizio su un portafoglio di 100 esposizioni, in questo caso generiamo la simulazione montecarlo utilizzando la funzione $inv.normale.N(casuale,media,varianza)$ per la normale e $inv.beta.N(casuale(),\alpha,\beta)$.
 Per generare la variabile indicatore usiamo la funzione $se(casuale()<=p;1;0)$
 Per calcolare il VaR usiamo la funzione $esc.percentile(matrice;confidenza)$.
 Per calcolare la TCE usiamo la funzione $somma.se(matrice;">="&VaR)$ / $conta.se(matrice;">="&VaR)$
 
-<iframe src="https://drive.google.com/file/d/10evM4HFS2lDBgDTdqjalMxKOiAbmSD1y/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/10evM4HFS2lDBgDTdqjalMxKOiAbmSD1y/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 
 
 

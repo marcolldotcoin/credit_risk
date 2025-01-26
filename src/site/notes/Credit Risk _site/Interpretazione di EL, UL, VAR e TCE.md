@@ -9,10 +9,7 @@ Quando calcoliamo questi valori in un portafolgio di crediti abbiamo la seguente
 
 Vediamo un esercizio per calcolare questi valori su un portafoglio di 6 esposizioni
 
-<video width="640" height="360" controls>
->   <source src="https://drive.google.com/file/d/1q1q9OwkxSkujashKLA54ou1Zlexs58Qx/view?usp=sharing" type="video/mp4">
->   Your browser does not support the video tag.
-> </video>
+<iframe src="https://drive.google.com/file/d/1q1q9OwkxSkujashKLA54ou1Zlexs58Qx/preview" width="640" height="480" allow="autoplay"></iframe>
 
 Ed anche un esercizio su un portafoglio di 100 esposizioni, in questo caso generiamo la simulazione montecarlo utilizzando la funzione $inv.normale.N(casuale,media,varianza)$ per la normale e $inv.beta.N(casuale(),\alpha,\beta)$.
 Per generare la variabile indicatore usiamo la funzione $se(casuale()<=p;1;0)$

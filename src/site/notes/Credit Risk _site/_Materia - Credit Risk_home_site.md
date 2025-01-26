@@ -70,25 +70,21 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 ---
 
 - **Esercizi in autonomia**
-	- [Perdita di portafoglio](https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
-
-	- 
-	- 
-	- Alala ![[Esercizi in autonomia perdita.xlsx]]
-	- Analisi discriminante: ![[Esercizi in autonomia analisi discriminante.xlsx]]
-	- Credit Risk+: ![[esercizi in autonomia cr+.xlsx]]
-	- Credit Metrics: ![[Esercizi in autonomia CreditMetrics.xlsx]]
+	- [Perdita di portafoglio](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20perdita.xlsx)
+	- [Analisi discriminante](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20analisi%20discriminante.xlsx)
+	- [Credit Risk+](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/esercizi%20in%20autonomia%20cr%2B.xlsx)
+	- [Credit Metrics](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20CreditMetrics.xlsx)
 
 ---
 - **Esercizi in autonomia soluzioni**
-	- Perdita di portafoglio: ![[Esercizi in autonomia perdita SVOLTI.xlsx]]
-	- Analisi discriminante: ![[Esercizi in autonomia analisi discriminante SVOLTI.xlsx]] 
-	- Credit Risk+: ![[Esercizi in autonomia cr+ SVOLTI.xlsx]] 
-	- Credit Metrics: ![[Esercizi in autonomia CreditMetrics SVOLTI.xlsx]]
+	- [Perdita di portafoglio SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20perdita%20SVOLTI.xlsx)
+	- [Analisi discriminante SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20analisi%20discriminante%20SVOLTI.xlsx)  
+	- [Credit Risk+ SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20cr%2B%20SVOLTI.xlsx)
+	- [Credit Metrics SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20CreditMetrics%20SVOLTI.xlsx)
 ---
 
 - **Domande ricorrenti agli esami**
-	- ![[Domande probabili credit risk.pdf]]
+	- [Domande ricorrenti](https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
 
 ---
 

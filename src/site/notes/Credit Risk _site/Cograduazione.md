@@ -19,7 +19,7 @@ Il concetto è molto più facilmente comprensibile svolgendo un esercizio pratic
 > </video>
 >
 > Si può partire sia dall'angolo in alto a sinistra sia in basso a destra.
-> Notiamo anche che le probabilità tendono a concentrarsi intorno alla diagonale principale della matrice.
+> Notiamo anche che le probabilità tendono a *concentrarsi intorno alla diagonale principale della matrice*
 
 Non bisogna confondere la massima concordanza con l'avere una [[Credit Risk _site/Correlazione\|Correlazione]] massima (ovvero 1).
 E' infatti possibile avere una situazione di massima concordanza ma allo stesso tempo che la relazione tra le variabili non sia lineare e, di conseguenza, la correlazione non sia 1.

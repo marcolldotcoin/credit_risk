@@ -70,7 +70,7 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 ---
 
 - **Esercizi in autonomia**
-	- [Perdita di portafoglio](https://github.com/marcolldotcoin/credit_risk/blob/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
+	- [Perdita di portafoglio](https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
 
 	- 
 	- 

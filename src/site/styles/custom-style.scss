@@ -1,13 +1,29 @@
+/***
+  ADD YOUR CUSTOM STYLING HERE.
+  IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+***/
+
+.back-button {
+  position: fixed;  // Rende il pulsante fisso
+  top: 20px;        // Distanza dal bordo superiore
+  left: 20px;       // Distanza dal bordo sinistro (zona verde)
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1000; // Mantiene il pulsante sopra gli altri elementi
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+// Se vuoi personalizzare il body, puoi farlo in SCSS
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  // background-color: white;
+  // .content { font-size: 14px; }
+  // h1 { color: black; }
 }

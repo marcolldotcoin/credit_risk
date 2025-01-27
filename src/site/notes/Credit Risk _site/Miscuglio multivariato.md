@@ -11,15 +11,11 @@ Siccome la nostra variabile $X$ è identificata non più da una sola variabile m
 ![Pasted image 20230325175542.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230325175542.png)
 
 > [!info]- ESEMPIO
-> - <b><i>X</i></b> univariata  
-> <i>X</i> è la variabile casuale "altezza delle popolazione", essa quindi avrà al suo interno:  
-> <br> $$X=altezza$$
->
-> - <b><i>X</i></b> multivariata  
-> <i>X</i> è la variabile casuale "caratteristiche fisiche della popolazione", avrà quindi al suo interno varie componenti:  
-> <br> $$X=altezza, peso, colore \space occhi, colore \space capelli$$  
-> In questo caso <i>X</i> è un vettore.
-
+>- $X$ univariata
+$X$ è la variabile casuale "altezza delle popolazione", essa quindi avrà al suo interno $X=altezza$
+>- $X$ multivariata
+$X$ è la variabile casuale "caratteristiche fisiche della popolazione", avrà quindi al suo interno varia componenti $X=altezza, peso, colore \space occhi, colore \space capelli$
+In questo caso X è un vettore
 
 Quando viene estratto il campione abbiamo la *realizzazione campionaria* delle variabili casuali.
 ![Pasted image 20230325180014.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230325180014.png)
@@ -43,8 +39,17 @@ Inoltre ricordiamoci sempre che ==una variabile miscuglio $X$ avrà come frequen
 
 [File excel Miscugli Bivariati](https://github.com/marcolldotcoin/credit_risk/blob/2fc8a2e113ab52e46b63c1488174760cbc6f73e1/src/site/uploads/Miscugli%20bivariati.xlsx)
 
-> [!info]- Esempio excel miscuglio con stesso supporto  
-> <div style="max-width: 640px; margin: auto;"> <video width="100%" controls> > <source src="https://github.com/marcolldotcoin/credit_risk/raw/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4"> > </video> </div> 
+> [!info]- Esempio excel miscuglio con stesso supporto RAW
+> >
+> <video width="640" height="360" controls>
+> <source src="https://github.com/marcolldotcoin/credit_risk/raw/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4">
+> </video>
+> 
+>Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
+>Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
+
+> [!info]- Esempio excel miscuglio con stesso supporto  BLOB
+> <div style="max-width: 640px; margin: auto;"> <video width="100%" controls> > <source src="https://github.com/marcolldotcoin/credit_risk/blob/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4"> > </video> </div> 
 Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
 >Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
 
@@ -56,7 +61,6 @@ Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le v
 Questo meccanismo di creare miscugli partendo da situazioni di indipendenza per introdurre dipendenza è la tecnica sulla quale si basa il modello Credit Risk+.
 >![[Esempio miscugio da variabili indipendenti.mp4]]
 
- <div style="max-width: 640px; margin: auto;"> <video width="100%" controls> > <source src="https://github.com/marcolldotcoin/credit_risk/blob/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4"> > </video> </div> 
 ## *Miscuglio bivariato da stessa famiglia di distribuzioni*
 Come per il [[Credit Risk _site/Variabile casuale miscuglio#*Miscuglio di stesse variabili casuali*\|miscuglio di Poisson]] anche in questo caso è possibile che le singole variabili $X_1$, $X_2$ ecc che compongono il miscuglio $X$ provengano da una stessa famiglia di distribuzioni.
 

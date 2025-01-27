@@ -66,15 +66,3 @@ Prendendo il caso di una variabile casuale $\Theta$ discreta:
 Per calcolare la probabilità che il miscuglio assuma un certo valore basta moltiplicare la probabilità che $X_1$ con parametro $\theta_1$ assuma il valore $x$ per la probabilità che si verifichi $\Theta_1$.
 Questo lavoro si fa per tutte quante le $X_1$, $X_2$, $X_k$  sommandone i risultati.
 E' lo stesso principio visto prima in [[Credit Risk _site/Variabile casuale miscuglio#^6cc356\|questa immagine]]. 
-
-**TEST MARKDOWN**
-
-> [!info]- TEST MATHJAX
-> $$E=mc^2$$
->
-> Inline: $X^2 + Y^2 = Z^2$
->
-> **Markdown in infobox:** *Italic*, **Bold**, `Code`
->
-> - **Lista**
-> - Con più elementi

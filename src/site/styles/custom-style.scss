@@ -4,9 +4,10 @@
 ***/
 
 .back-button {
-  position: fixed;  // Rende il pulsante fisso
-  top: 100px;        // Distanza dal bordo superiore
-  left: 20px;       // Distanza dal bordo sinistro 
+  position: fixed;  // Mantiene il pulsante fisso nella pagina
+  top: 50px;        // Modifica per allinearlo con la zona verde
+  left: 50%;        // Sposta il pulsante al centro della pagina
+  transform: translateX(-50%); // Corregge l'allineamento orizzontale
   background-color: #007bff;
   color: white;
   padding: 10px 15px;

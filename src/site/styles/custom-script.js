@@ -1,14 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let navbar = document.querySelector(".navbar"); // Trova la navbar
-
+    let navbar = document.querySelector(".navbar");
     if (navbar) {
-        let backButton = document.createElement("button");
+        let backButton = document.createElement("a");
+        backButton.href = "javascript:history.back()";
         backButton.className = "back-button";
         backButton.innerHTML = "⬅ Torna Indietro";
-        backButton.onclick = function () {
-            history.back();
-        };
-
-        navbar.appendChild(backButton); // Aggiunge il pulsante nella navbar
+        navbar.appendChild(backButton);
     }
 });

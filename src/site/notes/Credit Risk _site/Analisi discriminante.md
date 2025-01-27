@@ -51,6 +51,7 @@ Si vede quindi quante volte in percentuale il modello ci ha visto giusto, più �
 Di solito si considera un modello  *affidabile se supera l'80%* come TCR.
 
 <iframe src="https://drive.google.com/file/d/1hHKZB22raJJt9esALCiwtysw50Ce8Srw/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+
 ## Dallo score alla probabilità di default
 Esistono alcune tecniche per trasformare il punteggio di score nella probabilità di default.
 1. **Trasformazione rozza**

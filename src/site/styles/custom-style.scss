@@ -3,19 +3,10 @@
   IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
 ***/
 
-/* Contenitore per i pulsanti */
-.header-buttons {
-  position: fixed;
-  top: 20px;
-  left: 50%; /* Centra il contenitore */
-  transform: translateX(-50%); /* Corregge la posizione */
-  display: flex;
-  gap: 15px; /* Spazio tra i pulsanti */
-  z-index: 1000;
-}
-
-/* Pulsante indietro */
 .back-button {
+  position: fixed;  // Rende il pulsante fisso
+  top: 20px;        // Distanza dal bordo superiore
+  left: 20px;       // Distanza dal bordo sinistro (zona verde)
   background-color: #007bff;
   color: white;
   padding: 10px 15px;
@@ -23,30 +14,13 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  z-index: 1000; // Mantiene il pulsante sopra gli altri elementi
+
+  &:hover {
+    background-color: #0056b3;
+  }
 }
 
-.back-button:hover {
-  background-color: #0056b3;
-}
-
-/* Pulsante Home */
-.home-button {
-  background-color: #28a745; /* Verde */
-  color: white;
-  padding: 10px 15px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-button:hover {
-  background-color: #218838;
-}
 /* Cambia il colore dei link */
 a {
   color: #00bfff; // Celeste (puoi modificare con un altro codice colore)

@@ -39,27 +39,20 @@ Inoltre ricordiamoci sempre che ==una variabile miscuglio $X$ avrà come frequen
 
 [File excel Miscugli Bivariati](https://github.com/marcolldotcoin/credit_risk/blob/2fc8a2e113ab52e46b63c1488174760cbc6f73e1/src/site/uploads/Miscugli%20bivariati.xlsx)
 
-> [!info]- Esempio excel miscuglio con stesso supporto RAW
-> >
-> <video width="640" height="360" controls>
-> <source src="https://github.com/marcolldotcoin/credit_risk/raw/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4">
-> </video>
-> 
->Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
->Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
+**Esempio excel miscuglio con stesso supporto** 
+<video width="640" height="360" controls><source src="https://github.com/marcolldotcoin/credit_risk/raw/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4"></video>
 
-> [!info]- Esempio excel miscuglio con stesso supporto  iFrames
-> <iframe src="https://github.com/marcolldotcoin/credit_risk/blob/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
->Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
+Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
 
+**Esempio excel miscuglio con supporti diversi**
+Qui vediamo che il metodo è applicabile anche su supporti diversi
 
-> [!info]- Esempio excel miscuglio con supporti diversi
-> ![[Esempio miscugio multivariato 2.mp4]]
+<video width="640" height="360" controls><source src="https://github.com/marcolldotcoin/credit_risk/raw/36da40065682cf01a732e11c45dc1fd1b96e5722/src/site/uploads/video/Esempio%20miscugio%20multivariato%202.mp4" type="video/mp4"></video>
 
-> [!info]- Esempio excel sull'indipendenza nel miscuglio
+**Esempio excel sull'indipendenza nel miscuglio**
 Questo meccanismo di creare miscugli partendo da situazioni di indipendenza per introdurre dipendenza è la tecnica sulla quale si basa il modello Credit Risk+.
->![[Esempio miscugio da variabili indipendenti.mp4]]
+<iframe src="https://drive.google.com/file/d/13w0o-XPEqcVZgsFCCHJF1cpeIPRQcFIY/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 
 ## *Miscuglio bivariato da stessa famiglia di distribuzioni*
 Come per il [[Credit Risk _site/Variabile casuale miscuglio#*Miscuglio di stesse variabili casuali*\|miscuglio di Poisson]] anche in questo caso è possibile che le singole variabili $X_1$, $X_2$ ecc che compongono il miscuglio $X$ provengano da una stessa famiglia di distribuzioni.

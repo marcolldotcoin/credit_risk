@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/credit-risk-site/homepage/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/credit-risk-site/materia-credit-risk-home-site/","tags":["gardenEntry"]}
 ---
 
 # TEORIA

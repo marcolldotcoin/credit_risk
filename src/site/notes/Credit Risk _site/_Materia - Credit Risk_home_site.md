@@ -23,10 +23,10 @@
 		- [[Credit Risk _site/Valore atteso del Miscuglio\|Valore atteso del Miscuglio]]
 		- [[Credit Risk _site/Varianza del Miscuglio\|Varianza del Miscuglio]] 
 		- [[Credit Risk _site/Funzione generatrice delle probabilità del Miscuglio\|Funzione generatrice delle probabilità del Miscuglio]]
-	- 🔴Miscugli importanti🔴  
-		- [[Credit Risk _site/Miscuglio di Poisson\|Miscuglio di Poisson]]
-		- [[Credit Risk _site/Miscuglio Gamma-Poisson\|Miscuglio Gamma-Poisson]]
-		- [[Credit Risk _site/Miscuglio multivariato\|Miscuglio multivariato]]
+	- *Miscugli importanti*
+			- [[Credit Risk _site/Miscuglio di Poisson\|Miscuglio di Poisson]]
+			- [[Credit Risk _site/Miscuglio Gamma-Poisson\|Miscuglio Gamma-Poisson]]
+			- [[Credit Risk _site/Miscuglio multivariato\|Miscuglio multivariato]]
 	- [[Credit Risk _site/Variabile casuale somma\|Variabile casuale somma]] 
 
 ---

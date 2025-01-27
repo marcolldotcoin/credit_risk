@@ -7,7 +7,7 @@
 
 
 
-Si parla di **variabile casuale bivariata** quando c'è una coppia di variabili casuali da esaminare contemporaneamente, usiamo lo strumento della [[Credit Risk _site/Tabella bivariata\|Tabella bivariata]] per rappresentarle.
+Si parla di **variabile casuale bivariata** quando c'è una coppia di variabili casuali da esaminare contemporaneamente, usiamo lo strumento della *tabella bivariata* per rappresentarle.
 
 ![Pasted image 20230312182208.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312182208.png)
 I valori $p_i$$_j$ dentro la tabella di chiamano **frequenze congiunte**. 

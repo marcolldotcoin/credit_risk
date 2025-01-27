@@ -37,10 +37,11 @@ Otteniamo così la distribuzione di probabilità della variabile "Valore ad un a
 ![Pasted image 20230530154329.png|350](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230530154329.png)
 Il valore di default è calcolato utilizzando la media del tasso di recupero calcolata su varie esposizioni finite in default.
 
-![[Esercizio Credit Metrics .mp4]]
+<iframe src="https://drive.google.com/file/d/1I6b7RdaPbaQ3GCeZIUxggPG2GIlcHncO/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 
 Possiamo anche considerare un tasso di recupero non fisso ma con la sua distribuzione di probabilità.
-![[Esercizio Credit Metrics tasso di recupero .mp4]]
+
+<iframe src="https://drive.google.com/file/d/1P4kvYUPOUwA9d9_SToCb9ZIjZcbPNd4L/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 ## *I rating congiunti*
 Una volta fatto questo procedimento per una esposizione va ripetuto per tutte quante per poi metterle assieme e definire la variabile "valore di portafoglio".
 La somma di tutte quante le esposizioni ha certe caratteristiche, che cambiano se le esposizioni sono indipendenti oppure dipendenti.
@@ -79,7 +80,9 @@ Quindi se noi:
 - Sommiamo i valori ottenuti per ogni esposizione
 Troviamo il valore di portafoglio, ciascun valore con una probabilità che si verifichi pari a quella riportata in matrice.
 ![Pasted image 20230531180051.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230531180051.png)
-![[Esercizio Credit Metrics indipendenza e supporto.mp4]]
+
+<iframe src="https://drive.google.com/file/d/1CQwCiFT7-6XDvZLnuCkaJNoFnDs-0wiO/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+
 Questo ragionamento utilizzando il *metodo costruttivo* nel bivariato può essere esteso anche nel multivariato:
 1. Si prendono in considerazione rendimenti attesi, varianze e correlazioni di più aziende.
 2. Dall'andamento congiunto dei rendimenti azionari si desume l'andamento congiunto dei rating dei vari debitori.
@@ -95,7 +98,9 @@ Partiremo quindi da simulazioni indipendenti di $Z$ per poi usare le opportune t
 ![Pasted image 20230531183819.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230531183819.png)
 
 Applicheremo come di consueto il metodo Montecarlo ma ponendo attenzione alla fase iniziale di generazione dei numeri casuali perché se li vogliamo dipendenti bisogna effettuare la trasformazione vista prima.
-![[Esercizio Credit Metrics creazione normale bivariata dipendente.mp4]]
+
+<iframe src="https://drive.google.com/file/d/1P3-t8VDbAC2qxGp-yL0MZ2gGeZALblEd/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 
 Una volta trasformati i valori si può assegnare ad ogni simulazione un rating
-![[Esercizio Credit Metrics assegnazione rating.mp4]]
+
+<iframe src="https://drive.google.com/file/d/1SjE4MMGKYoZ-sYcqvWguNDrUnLYlptc1/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>

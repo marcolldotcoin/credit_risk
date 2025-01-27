@@ -32,11 +32,11 @@ Questa espressione divisa per $r!$ dà la probabilità che $Z=r$ , ovvero la ==p
 
 [File excel](https://github.com/marcolldotcoin/credit_risk/raw/b8c6e0b5bab246d3bba44d7a88c5238ab748698c/src/site/uploads/Combinazione%20lineare%20poisson%2BStrutture%20di%20dipendenza.xlsx)
 
-![[Fgp combinazione lineare di Poisson.mp4]]
+<iframe src="https://drive.google.com/file/d/1ym6vRldU7jc0lj9HDjvPUMubW30UCkjg/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+
 ![Pasted image 20230312152534.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312152534.png)
 ![Pasted image 20230312150941.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312150941.png)
-Nel costruire la tabella su excel andiamo a spezzare la formula in 3, calcolando i singoli 
-fattori per poi moltiplicarli tra loro.
+Nel costruire la tabella su excel andiamo a spezzare la formula in 3, calcolando i singoli fattori per poi moltiplicarli tra loro.
 ![Pasted image 20230312151203.png|400](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312151203.png)
 Dobbiamo ricordarci che il numero massimo di addendi della sommatoria è uguale al numero $k$ di poisson coinvolte nella combinazione lineare, partendo però da $i=0$.
 Nell'esempio di sopra abbiamo 3 poisson, quindi il numero totale di addendi della sommaroria sarà $3$. Nella tabella vediamo i 3 addendi: 0 , 1 e 2.

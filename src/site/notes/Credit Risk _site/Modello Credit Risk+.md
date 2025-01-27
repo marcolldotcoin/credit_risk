@@ -36,7 +36,9 @@ Se consideriamo le varie **esposizioni indipendenti** tra loro assumiamo che $N_
 ![Pasted image 20230529171441.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230529171441.png)
 
 Vediamo un'esercizio su come dividere in classi e come utilizzare il metodo costruttivo per trovare la distribuzione di probabilità
-![[Esercizio CR+ fasce e metodo costruttivo.mp4]]
+
+<iframe src="https://drive.google.com/file/d/1mk8DT-LOkqpcuSQNnouOwJe_VnlYfJnp/preview" width="640" height="480" allow="autoplay"allowfullscreen></iframe>
+
 E' possibile usare il metodo della FGL come visto in precedenza nel corso.
 E' possibile usare anche il metodo Montecarlo
 

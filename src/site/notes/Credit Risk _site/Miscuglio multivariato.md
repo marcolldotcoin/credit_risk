@@ -1,10 +1,6 @@
 ---
-{"dg-publish": true, "permalink": "/credit-risk-site/Miscuglio-multivariato/"}
+{"dg-publish":true,"permalink":"/credit-risk-site/miscuglio-multivariato/"}
 ---
-
-
-
-
 
 I **Miscugli multivariati** sono Miscugli generati da *variabili multivariate*, e non più univariate come nel caso della Poisson.
 
@@ -44,8 +40,17 @@ Inoltre ricordiamoci sempre che ==una variabile miscuglio $X$ avrà come frequen
 FILE EXCEL: ![[Miscugli bivariati.xlsx]]
 
 > [!info]- Esempio excel miscuglio con stesso supporto
->![[Esempio miscugio multivariato 1.mp4]]
+> >
+> <video width="640" height="360" controls>
+> <source src="https://github.com/marcolldotcoin/credit_risk/blob/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4">
+> </video>
+> 
 >Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
+>Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
+
+> [!info]- Esempio excel miscuglio con stesso supporto  
+> <div style="max-width: 640px; margin: auto;"> <video width="100%" controls> > <source src="https://github.com/marcolldotcoin/credit_risk/blob/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4"> > </video> </div> 
+Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
 >Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
 
 

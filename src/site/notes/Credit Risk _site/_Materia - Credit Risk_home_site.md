@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/credit-risk-site/materia-credit-risk-home-site/","tags":["gardenEntry"]}
 ---
 
-# **Credit Risk**
+# TEORIA
 
 -  **Richiami su variabili casuali**
 	- [[Credit Risk _site/Variabile casuale indicatore (di Bernoulli)\|Variabile casuale indicatore (di Bernoulli)]]
@@ -54,7 +54,9 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 
 ---
 
-- **Riepilogo dimostrazioni**
+# PREPARAZIONE ALL'ESAME
+
+- **Riepilogo dimostrazioni**: In questa sezione trovate le dimostrazioni che può chiedere allo scritto. Sono esattamente le stesse che avete studiato nella precedente sezione "Teoria". Semplicemente questo è un elenco di recap per trovarle più velocemente senza dover scorrere all'interno dei vari file della teoria. 
 
 	- [[Credit Risk _site/Dimostrazione - Binomiale approssimata alla Poisson\|Dimostrazione - Binomiale approssimata alla Poisson]]
 	- [[Credit Risk _site/Dimostrazione - Fgp e le sue proprietà (+corollario)\|Dimostrazione - Fgp e le sue proprietà (+corollario)]]
@@ -69,14 +71,14 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 
 ---
 
-- **Esercizi in autonomia**
+- **Esercizi in autonomia**: Da svolgere
 	- [Perdita di portafoglio](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20perdita.xlsx)
 	- [Analisi discriminante](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20analisi%20discriminante.xlsx)
 	- [Credit Risk+](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/esercizi%20in%20autonomia%20cr%2B.xlsx)
 	- [Credit Metrics](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20CreditMetrics.xlsx)
 
 ---
-- **Esercizi in autonomia soluzioni**
+- **Esercizi in autonomia**: Svolti con soluzioni
 	- [Perdita di portafoglio SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20perdita%20SVOLTI.xlsx)
 	- [Analisi discriminante SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20analisi%20discriminante%20SVOLTI.xlsx)  
 	- [Credit Risk+ SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20cr%2B%20SVOLTI.xlsx)
@@ -88,4 +90,5 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 
 ---
 
-Vostro per sempre, $MB$
+$Vostro \ per \ sempre,$ 
+$MB$

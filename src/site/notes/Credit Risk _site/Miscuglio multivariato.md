@@ -48,8 +48,8 @@ Inoltre ricordiamoci sempre che ==una variabile miscuglio $X$ avrà come frequen
 >Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
 >Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
 
-> [!info]- Esempio excel miscuglio con stesso supporto  BLOB
-> <div style="max-width: 640px; margin: auto;"> <video width="100%" controls> > <source src="https://github.com/marcolldotcoin/credit_risk/blob/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" type="video/mp4"> > </video> </div> 
+> [!info]- Esempio excel miscuglio con stesso supporto  iFrames
+> <iframe src="https://github.com/marcolldotcoin/credit_risk/blob/fe02ed044e70c5aaa618102f691049c72b91711c/src/site/uploads/video/Esempio%20miscugio%20multivariato%201.mp4" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 Abbiamo visto che possiamo ottenere le marginali del miscuglio sia sommando le varie frequenze congiunte sia effettuando l'operazione di miscuglio sulle marginali iniziali stesse.
 >Il che è perfettamente coerente in quanto le marginali iniziali non sono altro che distribuzioni univariate, quindi è come se stessimo facendo un classico miscuglio univariato.
 
@@ -71,3 +71,15 @@ Prendendo il caso di una variabile casuale $\Theta$ discreta:
 Per calcolare la probabilità che il miscuglio assuma un certo valore basta moltiplicare la probabilità che $X_1$ con parametro $\theta_1$ assuma il valore $x$ per la probabilità che si verifichi $\Theta_1$.
 Questo lavoro si fa per tutte quante le $X_1$, $X_2$, $X_k$  sommandone i risultati.
 E' lo stesso principio visto prima in [[Credit Risk _site/Variabile casuale miscuglio#^6cc356\|questa immagine]]. 
+
+**TEST MARKDOWN**
+
+> [!info]- TEST MATHJAX
+> $$E=mc^2$$
+>
+> Inline: $X^2 + Y^2 = Z^2$
+>
+> **Markdown in infobox:** *Italic*, **Bold**, `Code`
+>
+> - **Lista**
+> - Con più elementi

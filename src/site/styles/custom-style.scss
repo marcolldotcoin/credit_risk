@@ -1,8 +1,8 @@
 .back-button {
-  position: fixed;  /* Lo fissa alla finestra del browser */
-  top: 10px;        /* Regola per allinearlo meglio alla navbar */
+  position: fixed;  /* Fissa il pulsante alla finestra del browser */
+  top: 50%;         /* Lo centra verticalmente nella navbar */
   left: 50%;        /* Lo centra orizzontalmente */
-  transform: translateX(-50%);  /* Corregge l'allineamento centrale */
+  transform: translate(-50%, -50%);  /* Corregge l'allineamento */
   background-color: #007bff;
   color: white;
   padding: 10px 15px;
@@ -10,14 +10,22 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  z-index: 1000;  /* Mantiene il pulsante sopra il contenuto */
+  z-index: 1000;  /* Mantiene il pulsante sopra gli altri elementi */
 
   &:hover {
     background-color: #0056b3;
   }
 }
 
-/* AGGIUNGI UNO SPAZIO SOTTO LA NAVBAR PER EVITARE SOVRAPPOSIZIONI */
-body {
-  padding-top: 50px;  /* Regola l'altezza per evitare che il testo vada sotto il pulsante */
+/* Assicura che la navbar rimanga fissa */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;  /* Assicura che la navbar stia sopra tutto */
+  background-color: var(--background-primary);  /* Mantiene lo stile del tema */
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* Centra il pulsante */
+  height: 68.4px;  /* Altezza misurata dalla tua ispezione */
 }

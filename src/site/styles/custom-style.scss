@@ -1,13 +1,8 @@
-/***
-  ADD YOUR CUSTOM STYLING HERE.
-  IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-***/
-
 .back-button {
-  position: absolute;  // Deve stare dentro la navbar
-  top: 50%;            // Lo centra verticalmente
-  left: 50%;           // Lo centra orizzontalmente
-  transform: translate(-50%, -50%); // Corregge l'allineamento
+  position: fixed;  // Lo fissa alla finestra del browser
+  top: 0;           // Lo posiziona esattamente all'altezza della navbar
+  left: 50%;        // Lo centra orizzontalmente
+  transform: translateX(-50%);  // Corregge l'allineamento centrale
   background-color: #007bff;
   color: white;
   padding: 10px 15px;
@@ -15,11 +10,13 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  z-index: 1000;  // Assicura che il pulsante stia sopra la navbar
 
   &:hover {
     background-color: #0056b3;
   }
 }
+
 
 
 /* Cambia il colore dei link */

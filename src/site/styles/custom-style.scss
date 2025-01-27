@@ -1,8 +1,16 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;  /* Mantiene la navbar sopra tutto */
+  background-color: var(--background-primary);  /* Mantiene il colore */
+}
+
 .back-button {
-  position: fixed;  /* Lo fissa alla finestra del browser */
-  top: 15px;  /* Regola l'altezza per allinearlo alla navbar */
+  position: absolute;  /* Assicura che sia posizionato rispetto alla navbar */
+  top: 50%;  /* Centra il pulsante verticalmente nella navbar */
   left: 50%;  /* Lo posiziona orizzontalmente al centro */
-  transform: translateX(-50%);  /* Corregge il centramento */
+  transform: translate(-50%, -50%);  /* Corregge il centramento */
   background-color: #007bff;
   color: white;
   padding: 10px 15px;
@@ -10,7 +18,8 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  z-index: 1000;  /* Assicura che il pulsante rimanga sopra gli altri elementi */
+
+  z-index: 1000;  /* Assicura che il pulsante sia visibile sopra gli altri elementi */
 
   &:hover {
     background-color: #0056b3;

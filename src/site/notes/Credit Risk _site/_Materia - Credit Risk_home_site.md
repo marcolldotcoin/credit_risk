@@ -50,6 +50,14 @@
 	- [[Credit Risk _site/Modello CreditMetrix\|Modello CreditMetrix]]
 
 ---
+
+- **Approfondimento sui CDS** (non in programma, per 1 punto bonus all'orale)
+<iframe src="https://docs.google.com/gview?url=https://github.com/marcolldotcoin/credit_risk/raw/5e9e47b34598bc1d1d365322ba6dec815f47d8c0/src/site/uploads/CDS_Riassunto.pdf&embedded=true" width="100%" height="600px" style="border: none;"></iframe>
+
+[Scarica il file sui CDS cliccando qui](https://github.com/marcolldotcoin/credit_risk/raw/5e9e47b34598bc1d1d365322ba6dec815f47d8c0/src/site/uploads/CDS_Riassunto.pdf)
+
+
+---
 $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 
 ---
@@ -86,7 +94,9 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 ---
 
 - **Domande ricorrenti agli esami**
-	- [Domande ricorrenti](https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
+<iframe src="https://docs.google.com/gview?url=https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf&embedded=true" width="100%" height="600px" style="border: none;"></iframe>
+
+[Scarica il file cliccando qui](https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
 
 ---
 

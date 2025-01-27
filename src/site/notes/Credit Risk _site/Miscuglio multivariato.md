@@ -12,10 +12,12 @@ Siccome la nostra variabile $X$ è identificata non più da una sola variabile m
 
 > [!info]- ESEMPIO
 >- $X$ univariata
-$X$ è la variabile casuale "altezza delle popolazione", essa quindi avrà al suo interno $X=altezza$
+>$X$ è la variabile casuale "altezza delle popolazione", essa quindi avrà al suo interno
+>$$X=altezza$$
 >- $X$ multivariata
-$X$ è la variabile casuale "caratteristiche fisiche della popolazione", avrà quindi al suo interno varia componenti $X=altezza, peso, colore \space occhi, colore \space capelli$
-In questo caso X è un vettore
+>$X$ è la variabile casuale "caratteristiche fisiche della popolazione", avrà quindi al suo interno varia componenti 
+>$X=altezza, peso, colore \space occhi, colore \space capelli$
+>In questo caso X è un vettore
 
 Quando viene estratto il campione abbiamo la *realizzazione campionaria* delle variabili casuali.
 ![Pasted image 20230325180014.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230325180014.png)

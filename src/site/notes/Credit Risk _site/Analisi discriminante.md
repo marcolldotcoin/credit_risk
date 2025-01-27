@@ -49,8 +49,8 @@ Si vede quindi quante volte in percentuale il modello ci ha visto giusto, più �
 [File excel](https://github.com/marcolldotcoin/credit_risk/raw/18ccd8b32406d818154aab16b7f5824c4dad2bf0/src/site/uploads/Analisi%20discriminante.xlsx)
 
 Di solito si considera un modello  *affidabile se supera l'80%* come TCR.
-![[Esercizio score e TCR.mp4]]
 
+<iframe src="https://drive.google.com/file/d/1hHKZB22raJJt9esALCiwtysw50Ce8Srw/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 ## Dallo score alla probabilità di default
 Esistono alcune tecniche per trasformare il punteggio di score nella probabilità di default.
 1. **Trasformazione rozza**
@@ -69,10 +69,12 @@ La funzione di sopravvivenza scelta ha la caratteristica di essere linearizzabil
 ![Pasted image 20230529122625.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230529122625.png)
 
 Queste probabilità di default possono anche sostituire gli score, con la banca che non concede il prestito quando la probabilità di default è troppo alta.
-![[Stima probabilità metodo regressione.mp4]]
+
+<iframe src="https://drive.google.com/file/d/1mqPZzG4Yk7wNzsyEk29UbsyMVBA-C0ea/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 
 3. **Valutazione ed interpolazione a posteriori**
 In questo caso la banca valuta l'analisi discriminante costruita in precedenza e in base a ciò determina la probabilità d'insolvenza, in sostanza  osserva cosa succede dopo 1 anno e in base a ciò calcola la probabilità.
 Suddivide i valori di score a partire dal cut-off, osserva quanti prestiti ha finanziato e quanti di essi sono in default entro un anno. Grazie a ciò calcola la frequenza relativa e quindi la prob di default.
 ![Pasted image 20230529125044.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230529125044.png)
-![[Stima probabilità metodo regressione a posteriori.mp4]]
+
+<iframe src="https://drive.google.com/file/d/1hPUXQBNTAmMWHXBk-mRMdetJ6Z9MsKHU/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>

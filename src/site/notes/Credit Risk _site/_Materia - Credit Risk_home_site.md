@@ -55,7 +55,7 @@
 <iframe src="https://docs.google.com/gview?url=https://github.com/marcolldotcoin/credit_risk/raw/5e9e47b34598bc1d1d365322ba6dec815f47d8c0/src/site/uploads/CDS_Riassunto.pdf&embedded=true" width="100%" height="600px" style="border: none;"></iframe>
 
 [Scarica il file sui CDS cliccando qui](https://github.com/marcolldotcoin/credit_risk/raw/5e9e47b34598bc1d1d365322ba6dec815f47d8c0/src/site/uploads/CDS_Riassunto.pdf)
-
+<br>
 
 ---
 $$FINE \ PROGRAMMA \ DEL \ CORSO$$
@@ -64,33 +64,39 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 
 # PREPARAZIONE ALL'ESAME
 
-- **Riepilogo dimostrazioni**: In questa sezione trovate le dimostrazioni che può chiedere allo scritto. Sono esattamente le stesse che avete studiato nella precedente sezione "Teoria". Semplicemente, questo è un elenco di recap per trovarle più velocemente senza dover scorrere all'interno dei vari file della teoria, "epurato" da parti superflue ai fini della risposta da dare all'esame. E' quindi *consigliato studiarle da questi link per il ripasso durante la preparazione dell'esame*. Con i simboli ❗ trovate le dimostrazioni sapere ==assolutamente== perché leggermente più frequenti delle altre. 
-
+- **Riepilogo dimostrazioni**
 	- [[Credit Risk _site/Dimostrazione - Binomiale approssimata alla Poisson\|Dimostrazione - Binomiale approssimata alla Poisson]]
 	- [[Credit Risk _site/Dimostrazione - Fgp e le sue proprietà (+corollario)\|Dimostrazione - Fgp e le sue proprietà (+corollario)]]
 	- [[Credit Risk _site/Dimostrazione - Fgp per una variabile Z combinazione lineare di Poisson\|Dimostrazione - Fgp per una variabile Z combinazione lineare di Poisson]]
-	- [[Credit Risk _site/Dimostrazione - Valore atteso di un miscuglio\|Dimostrazione - Valore atteso di un miscuglio]] ❗❗❗
-	- [[Credit Risk _site/Dimostrazione - Varianza di un miscugio\|Dimostrazione - Varianza di un miscugio]] ❗❗❗
+	- [[Credit Risk _site/Dimostrazione - Valore atteso di un miscuglio\|Dimostrazione - Valore atteso di un miscuglio]] ❗
+	- [[Credit Risk _site/Dimostrazione - Varianza di un miscugio\|Dimostrazione - Varianza di un miscugio]] ❗
 	- [[Credit Risk _site/Dimostrazione - Fgp di un miscuglio\|Dimostrazione - Fgp di un miscuglio]] 
 	- [[Credit Risk _site/Miscuglio di Poisson\|Dimostrazione - Proprietà del miscuglio di poisson]]
 	- [[Credit Risk _site/Dimostrazione -  Funzione di probabilità e fgp di una Gamma Poisson\|Dimostrazione -  Funzione di probabilità e fgp di una Gamma Poisson]]
 	- [[Credit Risk _site/Dimostrazione - Somma di miscugli è la somma delle componenti del miscuglio\|Dimostrazione - Somma di miscugli è la somma delle componenti del miscuglio]]
-	- [[Credit Risk _site/Dimostrazione - Approssimazione della variabile P in Credit Risk+\|Dimostrazione - Approssimazione della variabile P in Credit Risk+]] ❗❗❗
+	- [[Credit Risk _site/Dimostrazione - Approssimazione della variabile P in Credit Risk+\|Dimostrazione - Approssimazione della variabile P in Credit Risk+]] ❗
+
+In questa sezione trovate le dimostrazioni che può chiedere allo scritto. Sono esattamente le stesse che avete studiato nella precedente sezione "Teoria". Semplicemente, questo è un elenco di recap per trovarle più velocemente senza dover scorrere all'interno dei vari file della teoria, "epurato" da parti superflue ai fini della risposta da dare all'esame. E' quindi *consigliato studiarle da questi link per il ripasso durante la preparazione dell'esame*. Con i simboli ❗ trovate le dimostrazioni da sapere ==assolutamente== perché leggermente più frequenti delle altre. 
 
 ---
 
-- **Esercizi in autonomia**: Da svolgere
+- **Esercizi Excel in autonomia**: Da svolgere
 	- [Perdita di portafoglio](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20perdita.xlsx)
 	- [Analisi discriminante](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20analisi%20discriminante.xlsx)
 	- [Credit Risk+](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/esercizi%20in%20autonomia%20cr%2B.xlsx)
 	- [Credit Metrics](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20CreditMetrics.xlsx)
 
+Esercizi che il professore caricherà in vista dell'esame. Impossibile superarlo se non si sono svolti questi quattro file.
+
 ---
-- **Esercizi in autonomia**: Svolti con soluzioni
+- **Esercizi Excel in autonomia**: Svolti con soluzioni
 	- [Perdita di portafoglio SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20perdita%20SVOLTI.xlsx)
 	- [Analisi discriminante SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20analisi%20discriminante%20SVOLTI.xlsx)  
 	- [Credit Risk+ SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20cr%2B%20SVOLTI.xlsx)
 	- [Credit Metrics SVOLTI](https://github.com/marcolldotcoin/credit_risk/raw/4a029d5cd6f14259cfa5d9ddcc72f13ea8c6295c/src/site/uploads/Esercizi%20in%20autonomia%20CreditMetrics%20SVOLTI.xlsx)
+
+Esercizi precedenti svolti per confrontare le soluzioni o chiarire dei punti dove ci si è bloccati.
+
 ---
 
 - **Domande ricorrenti agli esami**

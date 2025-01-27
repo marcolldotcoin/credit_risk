@@ -16,7 +16,7 @@ Siccome la nostra variabile $X$ è identificata non più da una sola variabile m
 >$$X=altezza$$
 >- $X$ multivariata
 >$X$ è la variabile casuale "caratteristiche fisiche della popolazione", avrà quindi al suo interno varia componenti 
->$X=altezza, peso, colore \space occhi, colore \space capelli$
+>$$X=altezza, peso, colore \space occhi, colore \space capelli$$
 >In questo caso X è un vettore
 
 Quando viene estratto il campione abbiamo la *realizzazione campionaria* delle variabili casuali.

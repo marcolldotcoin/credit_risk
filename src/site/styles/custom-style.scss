@@ -4,10 +4,10 @@
 ***/
 
 .back-button {
-  position: fixed;  // Mantiene il pulsante fisso
-  top: 34.2px;        // 
-  left: 50%;        // Sposta il pulsante al centro della pagina
-  transform: translateX(-50%); // Corregge l'allineamento orizzontale
+  position: absolute;  // Deve stare dentro la navbar
+  top: 50%;            // Lo centra verticalmente
+  left: 50%;           // Lo centra orizzontalmente
+  transform: translate(-50%, -50%); // Corregge l'allineamento
   background-color: #007bff;
   color: white;
   padding: 10px 15px;
@@ -15,7 +15,11 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  z-index: 1000; // Mantiene il pulsante sopra gli altri elementi
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
 
   &:hover {
     background-color: #0056b3;

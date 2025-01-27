@@ -53,8 +53,8 @@ Vogliamo sapere come è la variabile casuale somma sul miscuglio di due variabil
 Se avessimo a che fare con 3 variabili composte rispettivamente da supporti di dimensioni 4, 3 e 3 il numero totale delle componenti del supporto della varibile somma sarebbe $4$ x $3$ x $3$ = $36$. 
 
 Vediamo un esempio più complesso con **3 variabili** e l'utilizzo delle tabelle pivot
-![[Variabile Somma e tabella pivot.mp4]]
 
+<iframe src="https://drive.google.com/file/d/1kvZgndxQoPiTCx7TBVE5ZN7CkObfIcpL/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
 ## Metodo montecarlo
 E' un metodo che si basa sulla [[Credit Risk _site/Concezione frequentista della probabilità\|Concezione frequentista della probabilità]].
 Da qui deriva l'approccio Montecarlo, solo che invece di replicare fisicamente l'evento che ci interessa lo facciamo attraverso una simulazione dell'evento di interesse se conosciamo le sue caratteristiche.
@@ -68,7 +68,8 @@ Excel ci torna utile per generare numeri casuali da una determinata distribuzion
 
 Vediamo un esempio con la **somma di gamma-poisson** fruttando una simulazione Montecarlo, noteremo che anche se questa variabile ha un supporto infinito in realtà le probabilità si concentrano all'inizio del supporto.
 
-![[Somma di Gamma-poisson simulazione montecarlo.mp4]]
+<iframe src="https://drive.google.com/file/d/13hFlDevS7njYVS-RMTSk-hBiqRRo-ReI/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+
 Da questo esempio notiamo anche che la probabilità della variabile somma cambia di molto se cambiamo la *struttura d'associazione* tra le variabili $X$ (ovvero se esse sono indipendenti, cograduate, contrograduate).
 
 Il procedimento è quindi quello di:
@@ -76,7 +77,8 @@ Il procedimento è quindi quello di:
 2. Farne la somma
 3. Aggregarli con le tabelle pivot
 
-![[Esempio montecarlo usando vc uniforme come generatrice.mp4]]
+<iframe src="https://drive.google.com/file/d/1VoAYgu-jX6yNsUhkLCDzLE9SHdPIxBm-/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+
 In questo esempio usiamo la VC uniforme per generare numeri casuali da una distribuzione qualsiasi, è il motore di tutto quando facciamo una simulazione Montecarlo.
 Lo si fa con la funzione "=inv"
 

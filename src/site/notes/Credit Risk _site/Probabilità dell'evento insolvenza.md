@@ -1,6 +1,7 @@
 ---
-{"dg-publish": true, "permalink": "/credit-risk-site/Probabilità-dell'evento-insolvenza/"}
+{"dg-publish":true,"permalink":"/credit-risk-site/probabilita-dell-evento-insolvenza/"}
 ---
+
 
 
 
@@ -40,5 +41,7 @@ Il rating è una sigla ma essa rappresenza una probabilità di default.
 Ogni azienda dopo un certo periodo può passare da un rating all'altro, abbiamo quindi la matrice di transizione che ci dice la probabilità di passare da una classe all'altra.
 ![Pasted image 20230525125323.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230525125323.png)
 
-FILE EXCEL: ![[matrice transizione.xlsx]]
-![[Esercizio matrice di transizione.mp4]]
+[File excel Matrice di transizione](https://github.com/marcolldotcoin/credit_risk/blob/35ebef797bae340a2d79f3b694a154422dfc466f/src/site/uploads/matrice%20transizione.xlsx)
+
+<iframe src="https://drive.google.com/file/d/1SgE_es19JNpFK6c_S1tcUbFMkefkp-wb/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
+

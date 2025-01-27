@@ -56,18 +56,18 @@ $$FINE \ PROGRAMMA \ DEL \ CORSO$$
 
 # PREPARAZIONE ALL'ESAME
 
-- **Riepilogo dimostrazioni**: In questa sezione trovate le dimostrazioni che può chiedere allo scritto. Sono esattamente le stesse che avete studiato nella precedente sezione "Teoria". Semplicemente questo è un elenco di recap per trovarle più velocemente senza dover scorrere all'interno dei vari file della teoria. 
+- **Riepilogo dimostrazioni**: In questa sezione trovate le dimostrazioni che può chiedere allo scritto. Sono esattamente le stesse che avete studiato nella precedente sezione "Teoria". Semplicemente, questo è un elenco di recap per trovarle più velocemente senza dover scorrere all'interno dei vari file della teoria, "epurato" da parti superflue ai fini della risposta da dare all'esame. E' quindi *consigliato studiarle da questi link per il ripasso durante la preparazione dell'esame*. Con i simboli ❗ trovate le dimostrazioni sapere ==assolutamente== perché leggermente più frequenti delle altre. 
 
 	- [[Credit Risk _site/Dimostrazione - Binomiale approssimata alla Poisson\|Dimostrazione - Binomiale approssimata alla Poisson]]
 	- [[Credit Risk _site/Dimostrazione - Fgp e le sue proprietà (+corollario)\|Dimostrazione - Fgp e le sue proprietà (+corollario)]]
 	- [[Credit Risk _site/Dimostrazione - Fgp per una variabile Z combinazione lineare di Poisson\|Dimostrazione - Fgp per una variabile Z combinazione lineare di Poisson]]
-	- [[Credit Risk _site/Dimostrazione - Valore atteso di un miscuglio\|Dimostrazione - Valore atteso di un miscuglio]]
-	- [[Credit Risk _site/Dimostrazione - Varianza di un miscugio\|Dimostrazione - Varianza di un miscugio]]
-	- [[Credit Risk _site/Dimostrazione - Fgp di un miscuglio\|Dimostrazione - Fgp di un miscuglio]]
+	- [[Credit Risk _site/Dimostrazione - Valore atteso di un miscuglio\|Dimostrazione - Valore atteso di un miscuglio]] ❗❗❗
+	- [[Credit Risk _site/Dimostrazione - Varianza di un miscugio\|Dimostrazione - Varianza di un miscugio]] ❗❗❗
+	- [[Credit Risk _site/Dimostrazione - Fgp di un miscuglio\|Dimostrazione - Fgp di un miscuglio]] 
 	- [[Credit Risk _site/Miscuglio di Poisson\|Dimostrazione - Proprietà del miscuglio di poisson]]
 	- [[Credit Risk _site/Dimostrazione -  Funzione di probabilità e fgp di una Gamma Poisson\|Dimostrazione -  Funzione di probabilità e fgp di una Gamma Poisson]]
 	- [[Credit Risk _site/Dimostrazione - Somma di miscugli è la somma delle componenti del miscuglio\|Dimostrazione - Somma di miscugli è la somma delle componenti del miscuglio]]
-	- [[Credit Risk _site/Dimostrazione - La variabile P in Credit Risk+\|Dimostrazione - La variabile P in Credit Risk+]]
+	- [[Credit Risk _site/Dimostrazione - Approssimazione della variabile P in Credit Risk+\|Dimostrazione - Approssimazione della variabile P in Credit Risk+]] ❗❗❗
 
 ---
 

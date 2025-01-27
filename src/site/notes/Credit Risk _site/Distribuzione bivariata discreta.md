@@ -23,28 +23,31 @@ $p._1$ è la somma di tutte le probabilità sulla colonna $y_1$, in altre parole
 >Date queste frequenze marginali costruire le frequenze congiunte
 >![Pasted image 20230319134922.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230319134922.png)
 >Nel costruire le frequenze congiunte dobbiamo fare in modo che la somma di ogni riga e di ogni colonna mi dia la marginale corrispondente.
->Possiamo mettere numeri a caso, l'importante è rispettare il vincolo delle frequenze marginali
-> ![[Esercizio frequenze congiunte.mp4]]
-
+>Possiamo mettere numeri a caso, l'importante è rispettare il vincolo delle frequenze marginali.
+> <video width="640" height="360" controls><source src="https://github.com/marcolldotcoin/credit_risk/raw/772190a20cc91c41351e2b06a808041a6a9db007/src/site/uploads/video/Esercizio%20frequenze%20congiunte.mp4" type="video/mp4"></video>
 
 ---
 
-Se teniamo fisso una certà modalità, ad esempio $y_2$ e vedo come si distribuiscono le $x$ al suo interno ottengo la **distribuzione condizionata**.
+Se teniamo fisso una certa modalità, ad esempio $y_2$ e vedo come si distribuiscono le $x$ al suo interno ottengo la **distribuzione condizionata**.
 In questo modo rispondo alla domanda "se $Y$ assume valore $y_2$ come si distribuiscono le probabilità che si verifichi $X$?"
 > La tabella di frequenze condizionate **si costruiscono** facendo le congiunte diviso il totale del carattere fissato.
 > ![Pasted image 20230312184652.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312184652.png)
 
 ![Pasted image 20230312184223.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230312184223.png)
 > [!info]- ESERCIZIO
-> Data una tabella bivariata calcolare le frequenze di $X$ condizionato ad $Y$.
+> Data una tabella bivariata calcolare le frequenze di $X$ condizionato ad $Y$
+> 
 > ![Pasted image 20230319141336.png](/img/user/Credit%20Risk%20_site/allegati/Pasted%20image%2020230319141336.png)
-> Per farlo basta applicare la formula vista sopra, prendiamo i singoli elementi congiunti e li dividiamo per la marginale, in questo caso di $Y$ visto che è la variabile condizionante
-> ![[Esercizio frequenze condizionate.mp4]]
+> 
+> Per farlo basta applicare la formula vista sopra, prendiamo i singoli elementi congiunti e li dividiamo per la marginale, in questo caso di $Y$ visto che è la variabile condizionante.
+>  
+> <video width="640" height="360" controls><source src="https://github.com/marcolldotcoin/credit_risk/raw/772190a20cc91c41351e2b06a808041a6a9db007/src/site/uploads/video/Esercizio%20frequenze%20condizionate.mp4" type="video/mp4"></video>
+> 
 > Notiamo che vengono tutte uguali perché come tabella iniziale abbiamo usato quella in cui le variabili sono indipendenti, dunque la $Y$ non condiziona la $X$.
 
 ---
 La **probabilità cumulata** si calcolerà sommando tutte quante le probabilità che ci interessa cumulare fino al punto da noi desiderato.
-Ad esempio, la probabilità cumulta fino a $p_2$$_2$ sarà data dalla somma delle probabilità nel rettangolo blu.
+Ad esempio, la probabilità cumulata fino a $p_2$$_2$ sarà data dalla somma delle probabilità nel rettangolo blu.
 La probabilità cumulata fino a $p_i$$_j$ sarà la somma delle probabilità nel rettangolo verde.
 Per $p_r$$_2$ il rettangolo giallo.
 ![Pasted image 20250126145940.png](/img/user/Credit%20Risk%20_site/allegati/allegati/Pasted%20image%2020250126145940.png)

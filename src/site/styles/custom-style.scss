@@ -43,3 +43,24 @@ main.content {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.6); /* Effetto hover più visibile */
 }
+
+b, strong {
+    color: rgb(255, 0, 0) !important; /* Rosso acceso */
+}
+
+i, em {
+    color: rgb(240, 238, 0) !important; /* Giallo */
+}
+
+/* Cambia il colore dei link in blu */
+a {
+    color: rgb(113, 170, 255) !important; /* Blu acceso */
+    text-decoration: underline; /* Mantiene la sottolineatura */
+}
+
+/* Cambia colore dei link quando ci passi sopra con il mouse */
+a:hover {
+    color: rgb(0, 51, 204) !important; /* Blu più scuro al passaggio del mouse */
+}
+
+

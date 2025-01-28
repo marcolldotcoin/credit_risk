@@ -1,6 +1,7 @@
-body.markdown-preview-section .back-button {
+body:has(main.content header h1) .back-button {
     display: none !important;
 }
+
 
 .navbar {
     position: fixed;
@@ -20,7 +21,7 @@ body.markdown-preview-section .back-button {
 
 /* Evita che il contenuto venga coperto dalla navbar */
 main.content {
-    padding-top: calc(50px + 3px); /* Adatta dinamicamente lo spazio */
+    padding-top: calc(25px + 5px); /* Adatta dinamicamente lo spazio */
 }
 
 .navbar-inner {

@@ -54,12 +54,13 @@ i, em {
 
 /* Cambia il colore dei link in blu */
 a {
-    color: rgb(113, 170, 255) !important; /* Blu acceso */
-    text-decoration: underline; /* Mantiene la sottolineatura */
+    color: rgb(0, 102, 255) !important; /* Blu acceso */
+    text-decoration: none; /* Nessuna sottolineatura */
 }
 
 /* Cambia colore dei link quando ci passi sopra con il mouse */
 a:hover {
+    text-decoration: underline;
     color: rgb(0, 51, 204) !important; /* Blu più scuro al passaggio del mouse */
 }
 

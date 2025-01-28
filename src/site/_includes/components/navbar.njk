@@ -4,7 +4,7 @@
             <a href="/" style="text-decoration: none;">
                 <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
             </a>
-            <button onclick="goBack()" class="back-button">⬅ Torna Indietro</button>
+            <button onclick="goBackWithScroll()" class="back-button">⬅ Torna Indietro</button>
             <script>
             function goBack() {
                 sessionStorage.setItem("scrollPosition", window.scrollY);
@@ -27,34 +27,46 @@
 
 
 
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    // 🔹 Salva la posizione dello scroll quando l'utente clicca su un link
-    document.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", function (event) {
-            let scrollY = window.scrollY; // Posizione verticale attuale
-            sessionStorage.setItem("scrollPosition", scrollY);
+    // 🔹 Aggiunge un ID a tutti i link che non ne hanno uno
+    document.querySelectorAll("a").forEach((link, index) => {
+        if (!link.id) {
+            link.id = "link-" + index;
+        }
+
+        // 🔹 Quando l'utente clicca su un link, salva l'ID nel URL
+        link.addEventListener("click", function () {
+            let targetId = link.id;
+            history.replaceState(null, null, "#" + targetId);
         });
     });
 
-    // 🔹 Controlla se esiste una posizione di scroll salvata e forza lo scroll
-    if (sessionStorage.getItem("scrollPosition") !== null) {
-        setTimeout(() => {
-            let scrollToY = parseInt(sessionStorage.getItem("scrollPosition"), 10);
-            console.log("Scrolling to:", scrollToY); // Debug per verificare
-            window.scrollTo({ top: scrollToY, behavior: "instant" });
-            sessionStorage.removeItem("scrollPosition"); // Rimuove la posizione dopo l'uso
-        }, 50); // Ridotto il timeout per garantire il caricamento
+    // 🔹 Se l'URL contiene un hash (#...), forza lo scroll al punto esatto
+    if (window.location.hash) {
+        let targetElement = document.querySelector(window.location.hash);
+        if (targetElement) {
+            setTimeout(() => {
+                targetElement.scrollIntoView({ behavior: "instant" });
+            }, 100);
+        }
     }
 });
 
-// 🔹 Funzione per tornare indietro e **forzare il ripristino dello scroll**
-function goBack() {
-    let scrollY = window.scrollY;
-    sessionStorage.setItem("scrollPosition", scrollY);
-    console.log("Saving scroll position:", scrollY); // Debug per verificare
-    history.back();
+// 🔹 Funzione per tornare indietro e riportare lo scroll esattamente dove si era
+function goBackWithScroll() {
+    if (window.location.hash) {
+        history.back();
+        setTimeout(() => {
+            let targetElement = document.querySelector(window.location.hash);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: "instant" });
+            }
+        }, 100);
+    } else {
+        history.back();
+    }
 }
 </script>
-
 

@@ -35,11 +35,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
         {% endif %}
-
-        <div class="header-navigation">
-          <button onclick="history.back()" class="back-button">⬅ Torna Indietro</button>
-        </div>
-
         <div class="header-meta">
           {% if settings.dgShowTags === true and tags %}
             <div class="header-tags">

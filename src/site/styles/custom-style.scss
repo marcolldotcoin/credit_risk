@@ -1,6 +1,8 @@
-body[data-note-tags*="gardenEntry"] .back-button {
+main.content h1#teoria ~ .back-button {
     display: none !important;
 }
+
+
 
 .navbar {
     position: fixed;
@@ -20,7 +22,7 @@ body[data-note-tags*="gardenEntry"] .back-button {
 
 /* Evita che il contenuto venga coperto dalla navbar */
 main.content {
-    padding-top: calc(30px + 5px); /* Adatta dinamicamente lo spazio */
+    padding-top: calc(25px + 5px); /* Adatta dinamicamente lo spazio */
 }
 
 .navbar-inner {

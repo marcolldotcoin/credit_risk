@@ -24,30 +24,40 @@
     </div>
 {%endif%}
 
+
+
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    // Funzione per salvare la posizione del link cliccato
+    // Salva la posizione dello scroll quando l'utente clicca su un link
     document.querySelectorAll("a").forEach(link => {
         link.addEventListener("click", function (event) {
-            sessionStorage.setItem("scrollPosition", event.target.getBoundingClientRect().top + window.scrollY);
+            let scrollY = window.scrollY;
+            let targetId = event.target.closest("a").id; // Prende l'ID del link cliccato
+            sessionStorage.setItem("scrollPosition", scrollY);
+            sessionStorage.setItem("lastClickedLink", targetId);
         });
     });
 
     // Quando la pagina si carica, controlla se c'è una posizione salvata
     if (sessionStorage.getItem("scrollPosition") !== null) {
         setTimeout(() => {
-            window.scrollTo({
-                top: sessionStorage.getItem("scrollPosition"),
-                behavior: "smooth"
-            });
+            let scrollToY = sessionStorage.getItem("scrollPosition");
+            window.scrollTo({ top: scrollToY, behavior: "smooth" });
             sessionStorage.removeItem("scrollPosition"); // Rimuove la posizione dopo l'uso
-        }, 200); // Aspetta 200ms per assicurarti che tutto sia caricato
+        }, 200); // Ritarda lo scroll per assicurarsi che tutti gli elementi siano caricati
     }
 });
 
-// Funzione per tornare indietro e mantenere lo scroll
+// Funzione per tornare indietro e scorrere al punto esatto
 function goBack() {
     sessionStorage.setItem("scrollPosition", window.scrollY);
-    history.back();
+    history.back(); // Torna alla pagina precedente
 }
+
+// Miglioramento: Assegna automaticamente un ID ai link senza ID per poterli tracciare
+document.querySelectorAll("a:not([id])").forEach((link, index) => {
+    link.id = "auto-link-" + index;
+});
 </script>
+

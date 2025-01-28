@@ -29,35 +29,32 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    // Salva la posizione dello scroll quando l'utente clicca su un link
+    // 🔹 Salva la posizione dello scroll quando l'utente clicca su un link
     document.querySelectorAll("a").forEach(link => {
         link.addEventListener("click", function (event) {
-            let scrollY = window.scrollY;
-            let targetId = event.target.closest("a").id; // Prende l'ID del link cliccato
+            let scrollY = window.scrollY; // Posizione verticale attuale
             sessionStorage.setItem("scrollPosition", scrollY);
-            sessionStorage.setItem("lastClickedLink", targetId);
         });
     });
 
-    // Quando la pagina si carica, controlla se c'è una posizione salvata
+    // 🔹 Controlla se esiste una posizione di scroll salvata e forza lo scroll
     if (sessionStorage.getItem("scrollPosition") !== null) {
         setTimeout(() => {
-            let scrollToY = sessionStorage.getItem("scrollPosition");
-            window.scrollTo({ top: scrollToY, behavior: "smooth" });
+            let scrollToY = parseInt(sessionStorage.getItem("scrollPosition"), 10);
+            console.log("Scrolling to:", scrollToY); // Debug per verificare
+            window.scrollTo({ top: scrollToY, behavior: "instant" });
             sessionStorage.removeItem("scrollPosition"); // Rimuove la posizione dopo l'uso
-        }, 200); // Ritarda lo scroll per assicurarsi che tutti gli elementi siano caricati
+        }, 50); // Ridotto il timeout per garantire il caricamento
     }
 });
 
-// Funzione per tornare indietro e scorrere al punto esatto
+// 🔹 Funzione per tornare indietro e **forzare il ripristino dello scroll**
 function goBack() {
-    sessionStorage.setItem("scrollPosition", window.scrollY);
-    history.back(); // Torna alla pagina precedente
+    let scrollY = window.scrollY;
+    sessionStorage.setItem("scrollPosition", scrollY);
+    console.log("Saving scroll position:", scrollY); // Debug per verificare
+    history.back();
 }
-
-// Miglioramento: Assegna automaticamente un ID ai link senza ID per poterli tracciare
-document.querySelectorAll("a:not([id])").forEach((link, index) => {
-    link.id = "auto-link-" + index;
-});
 </script>
+
 

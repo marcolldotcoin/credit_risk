@@ -1,7 +1,6 @@
-body:has(main.content header h1) .back-button {
+body[data-note-tags*="gardenEntry"] .back-button {
     display: none !important;
 }
-
 
 .navbar {
     position: fixed;
@@ -21,7 +20,7 @@ body:has(main.content header h1) .back-button {
 
 /* Evita che il contenuto venga coperto dalla navbar */
 main.content {
-    padding-top: calc(25px + 5px); /* Adatta dinamicamente lo spazio */
+    padding-top: calc(30px + 5px); /* Adatta dinamicamente lo spazio */
 }
 
 .navbar-inner {

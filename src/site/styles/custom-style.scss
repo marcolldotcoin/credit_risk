@@ -1,9 +1,3 @@
-main.content h1#teoria ~ .back-button {
-    display: none !important;
-}
-
-
-
 .navbar {
     position: fixed;
     top: 0;
@@ -22,7 +16,7 @@ main.content h1#teoria ~ .back-button {
 
 /* Evita che il contenuto venga coperto dalla navbar */
 main.content {
-    padding-top: calc(25px + 5px); /* Adatta dinamicamente lo spazio */
+    padding-top: calc(20px + 5px); /* Adatta dinamicamente lo spazio */
 }
 
 .navbar-inner {

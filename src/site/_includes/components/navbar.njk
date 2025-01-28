@@ -26,17 +26,28 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    // Quando l'utente clicca su un link, salva la posizione dello scroll
+    // Funzione per salvare la posizione del link cliccato
     document.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", function () {
-            sessionStorage.setItem("scrollPosition", window.scrollY);
+        link.addEventListener("click", function (event) {
+            sessionStorage.setItem("scrollPosition", event.target.getBoundingClientRect().top + window.scrollY);
         });
     });
 
     // Quando la pagina si carica, controlla se c'è una posizione salvata
     if (sessionStorage.getItem("scrollPosition") !== null) {
-        window.scrollTo(0, sessionStorage.getItem("scrollPosition"));
-        sessionStorage.removeItem("scrollPosition"); // Rimuove la posizione dopo il caricamento
+        setTimeout(() => {
+            window.scrollTo({
+                top: sessionStorage.getItem("scrollPosition"),
+                behavior: "smooth"
+            });
+            sessionStorage.removeItem("scrollPosition"); // Rimuove la posizione dopo l'uso
+        }, 200); // Aspetta 200ms per assicurarti che tutto sia caricato
     }
 });
+
+// Funzione per tornare indietro e mantenere lo scroll
+function goBack() {
+    sessionStorage.setItem("scrollPosition", window.scrollY);
+    history.back();
+}
 </script>

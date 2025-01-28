@@ -16,28 +16,23 @@
 
 /* Evita che il contenuto venga coperto dalla navbar */
 main.content {
-    padding-top: calc(50px + 5px); /* Adatta dinamicamente lo spazio */
+    padding-top: calc(50px + 3px); /* Adatta dinamicamente lo spazio */
 }
 
 .navbar-inner {
     display: flex;
-    justify-content: space-between; /* Mantiene WikiRisk a sinistra e la search a destra */
     align-items: center;
-    width: 100%;
-    position: relative; /* Importante per il posizionamento assoluto del pulsante */
+    flex-wrap: wrap; /* Evita che gli elementi escano su schermi piccoli */
+    gap: 15px; /* Distanza tra "WikiRisk" e il pulsante */
 }
 
-/* Posiziona il pulsante "Torna Indietro" al centro della navbar */
 .back-button {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%); /* Centra esattamente il pulsante */
     background: #2d2d2d;
     color: white;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Bordo per contrasto */
     cursor: pointer;
     padding: 6px 12px;
     border-radius: 5px;

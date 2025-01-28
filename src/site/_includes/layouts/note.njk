@@ -26,8 +26,11 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {%include "components/searchContainer.njk"%}
     {% endif %}
 
+    <div class="back-button-bar">
+        <button onclick="history.back()" class="back-button">⬅ Torna Indietro</button>
+    </div>
+
     <main class="content cm-s-obsidian {{contentClasses}}">
-    <button onclick="history.back()" class="back-button">⬅ Torna Indietro</button>
       <header>
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>

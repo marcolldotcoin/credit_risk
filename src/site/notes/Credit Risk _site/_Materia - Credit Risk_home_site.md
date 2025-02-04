@@ -58,7 +58,7 @@
 <br>
 
 ---
-$$FINE \ PROGRAMMA \ DEL \ CORSO$$
+$$FINE \ PROGRAMMA$$
 
 ---
 

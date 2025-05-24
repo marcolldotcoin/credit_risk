@@ -100,7 +100,9 @@ Esercizi precedenti svolti per confrontare le soluzioni o chiarire dei punti dov
 ---
 
 - **Domande ricorrenti agli esami**
-<iframe src="https://docs.google.com/gview?url=https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf&embedded=true" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="https://docs.google.com/gview?url=https://github.com/marcolldotcoin/credit_risk/raw/main/src/site/uploads/Domande%20probabili%20credit%20risk.pdf&embedded=true" width="100%" height="600px" style="border: none;"></iframe>
+
+
 
 [Scarica il file cliccando qui](https://github.com/marcolldotcoin/credit_risk/raw/2ddff935d9f5972f072eb274af19b7ad40493de4/src/site/uploads/Domande%20probabili%20credit%20risk.pdf)
 
